@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    margin: auto;
+    padding: 200px;
+    background: linear-gradient(#525AF2, #6A70D9);
+    border-radius: 20px;
+}
+
+.box {
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    height: 500px;
+    background: linear-gradient(#262473, #222A59);
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+label{
+    color: white;
+}
+
+input{
+    border-radius: 9px;
+}

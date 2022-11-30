@@ -1,0 +1,36 @@
+:root{
+    --main-color: #407BFF;
+    --link-color: #666666;
+    --text1: #999999;
+    --highlight-text: #333333;
+    --input-text: #555555;
+    --white-color: #FFFFFF;
+    --points-list: #CCCCCC;
+    --line-input: #D9D9D9;
+    --invalid-field: #E74C3C;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+

@@ -1,0 +1,130 @@
+:root{
+    --main-color: #407BFF;
+    --link-color: #666666;
+    --text1: #999999;
+    --highlight-text: #333333;
+    --input-text: #555555;
+    --white-color: #FFFFFF;
+    --points-list: #CCCCCC;
+    --line-input: #D9D9D9;
+    --invalid-field: #E74C3C;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #FAFAFB;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: var(--main-color);
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    color: black;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 35px;
+    font-family: Poppins-Regular;
+}
+
+.cabecalho-menu-item{
+    font-family: Poppins-SemiBold, sans-serif;
+    color: var(--highlight-text);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: 0.4px solid;
+    margin-bottom: 48px;
+    color: var(--line-input);
+}
+
+.titulo{
+    font-family: Poppins-Bold;
+    color: var(--highlight-text);
+    
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: Poppins-Regular;
+}
+
+.rodape{
+    padding: 32px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    color: var(--line-input);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodape-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.rodape-menu-item{
+    font-family: Poppins-Regular, sans-serif;
+    color: var(--highlight-text);
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.rodape-menu-item:hover{
+    text-decoration: underline;
+    font-size: 18.5px;
+}
+
+.cabecalho-menu-item{
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.cabecalho-menu-item:hover{
+    text-decoration: underline;
+    font-size: 18.5px;
+}
+
+.logo{
+    margin-right: 200px;
+    height: auto;
+    width: 150px;
+}

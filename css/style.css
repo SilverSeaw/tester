@@ -1,0 +1,22 @@
+.login-tela{
+
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(33, 138, 243);
+}
+
+.box {
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    height: 420px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+
